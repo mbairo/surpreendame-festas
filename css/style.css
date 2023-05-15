@@ -1,0 +1,75 @@
+header {
+    margin-top: -48px;
+    /* melhorar isso */
+}
+
+body {
+    min-height: 100%;
+position: relative;
+} 
+
+
+#brand-name {
+    color: rgb(78, 35, 35);
+    padding: 0px;
+    font-size: 52px;
+
+}
+.subtitle {
+    /* color: rgb(250, 116, 98); */
+    color: rgb(32, 30, 30);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#search:hover { background-color: #80f048; 
+    transition: 2.8s;
+    opacity: 0.7;
+}
+
+.whatsapp{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:1px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.my-whatsapp{
+	margin-top:16px;	
+}
+
+
+
+/* Produtos */
+#produtos{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+	grid-gap: 50px;
+}
+
+
+#preco {
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+}
+
+
+.cardTitle{
+    font-size: 1.1rem;
+    color: black;
+    text-align: center;
+
+}
+
+#btn-invisivel {
+    position:fixed;
+}

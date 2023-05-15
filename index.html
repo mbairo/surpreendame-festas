@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="mbairo" content="">
+  <title>Surpreendame-Festas</title>
+  <!-- CSS Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="/css/carousel.css" rel="stylesheet">
+  <!-- Bootstrap para o whatsapp-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Meu CSS -->
+  <link href="/css/style.css" rel="stylesheet">
+  <link href="/css/footer.css" rel="stylesheet">
+  <!-- Icon para o navegador  -->
+  <link rel="icon" href="/assets/img-logo/box.png">
+</head>
+
+<body>
+  <header>
+    <!-- Logo e Nome -->
+    <div class="py-0 my-0" style="background-color: whitesmoke;">
+      <div class="container-fluid d-flex justify-content-center">
+        <nav class="navbar" style="background-color: whitesmoke">
+          <a class="navbar-brand mr-5" href="/html/home/index.html"><img height="110" src="/assets/img-logo/logo1.png"
+              alt="Logo"></a>
+          <span>
+            <h1 id="brand-name">Surpreendame-Festas</h1>            
+          </span>
+        </nav>
+      </div>
+    </div>
+    <!-- Navbar padrão -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">Surpreendame-Festas</a>        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/festas.html">Festas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/quem-somos.html">Quem somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/duvidas-contato.html">Dúvidas / Contato</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar" id="search">
+            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Conteudo do Site -->
+  <main>
+
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <!-- Carrossel 1 -->
+        <div class="carousel-item active">
+          <img class="first-slide" src="/assets/img-festas/festa-surpresa.jpg" alt="Primeiro slide">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Festa Surpresa!</h1>
+              <p> Garanta a melhor festa surpresa para aqueles que você mais gosta</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Veja mais</a></p>
+            </div>
+          </div>
+        </div>
+        <!-- Carrossel 2 -->
+        <div class="carousel-item">
+          <img class="first-slide" src="/assets/img-festas/festa-amigos.jpg" alt="Segundo slide">
+          </img>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Surpeenda seu amigo... ou simplesmente por que não trolar ele?</h1>
+              <p>Festas de faculdade, empresarial e muito mais...</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Veja mais</a></p>
+            </div>
+          </div>
+        </div>
+        <!-- Carrossel 3 -->
+        <div class="carousel-item">
+          <img class="first-slide" src="/assets/img-festas/halloween.jpg" alt="Terceiro slide">
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Festas Temáticas</h1>
+              <p>As melhores festas temáticas você encontra aqui! Venha conferir...</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Veja mais</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Destaques -->
+    <div class="container marketing">
+      <i class="fa-regular fa-cart-shopping"></i>
+      <h2 class="subtitle">Últimos Eventos Realizados</h2>
+      <div class="row">
+
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="/assets/img-festas/final-do-ano.jpg" alt="Generic placeholder image"
+            width="140" height="140">
+          <h2>Réveillon</h2>
+          <p>Realizado a festa de final de ano da empresa "x"</p>
+          <p><a class="btn btn-outline-success ver-mais" href="#" role="button" id="1">Ver &raquo;</a></p>
+        </div>
+
+
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="/assets/img-festas/carnaval.jpg" alt="Generic placeholder image" width="140"
+            height="140">
+          <h2>Carnaval 2023</h2>
+          <p>Festa de pré carnaval para a turma de ADS da faculdade Positivo...</p>
+          <p><a class="btn btn-outline-success ver-mais" href="#" role="button" id="2">Ver &raquo;</a></p>
+        </div>
+
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="/assets/img-festas/festa-criancas.jpg" alt="Generic placeholder image"
+            width="140" height="140">
+          <h2>Festa infantil</h2>
+          <p>A alegria e muita diversão não faltou para a família "x" e seus amigos... </p>
+          <p><a class="btn btn-outline-success ver-mais" href="#" role="button" id="3">Ver &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <!-- <span class="text-muted">Tudo o que você precisa</span> -->
+          <h2 class="featurette-heading">Festa Surpresa</h2>
+          <p class="lead">Sabe aquela frustação de não conseguir realizar a surpresa de uma festa surpresa?<br>
+                          Aqui na Surpreendame-Festas a surpresa é garantida!</p>
+          <p><a class="btn btn-outline-success ver-mais" href="#" role="button" id="4">Ver &raquo;</a></p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="/assets/img-festas/surpresa.jpg"
+            alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Festas Empresárias</h2>
+          </h2>
+          <p class="lead">Que tal dar uma festa para aquele colaborador que está batendo meta ou para aquela equipe nota 1000?<br>
+            Deixe tudo nas mãos de profissionais que vão garantir a melhor festa e diversão para eles</p>
+          <p><a class="btn btn-outline-success ver-mais" href="#" role="button" id="5">Ver &raquo;</a></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="featurette-image img-fluid mx-auto" src="/assets/img-festas/empresarial.jpg"
+            alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Festas Temáticas</h2>
+          <p class="lead">Garanta a diversão de seus filhos e amigos queridos com uma festa temática <br>
+                          Há várias opções dentre elas os temas: Dinossauros, Vingadores, Halloween, La Casa de Papel e muito mais... Venha conferir</p>
+          <p><a class="btn btn-outline-success ver-mais" href="#" role="button" id="6">Ver &raquo;</a></p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="/assets/img-festas/dinossauro.webp"
+            alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+    </div>
+
+    <footer>
+      <section>
+        <div id="containerFooter">
+
+          <div id="webFooter">
+            <h3>  Link's </h3>
+            <p> Home </p>
+            <p> Festas Realizadas</p>
+            <p> Contato </p>
+          </div>
+          
+          <div id="webFooter">
+            <h3> Festas </h3>
+            <p> Empresarial </p>
+            <p> Temáticas </p>
+            <p> Infantil </p>
+          </div>
+
+          <div id="webFooter">
+            <h3> Parceiros </h3>
+            <p> Coca Cola </p>
+            <p> Salgados Festa </p>
+            <p> UP</p>
+          </div>
+
+          <div id="webFooter">
+            <h3> Endereço </h3>
+            <p> Cidade Industrial - 81290-000 </p>
+            <p> Curitiba-PR </p>
+            <P> Mapa </P>
+          </div>
+        </div>
+        <p style="text-align: center; font-size: 15px;">&copy;Surpreendame-Festas CNPJ: 8041998775437</p>
+      </section>
+      <a href="https://api.whatsapp.com/send/?phone=5541998775437&text&app_absent=0" class="whatsapp" target="_blank"><i
+          class="fa fa-whatsapp my-whatsapp"></i></a>
+    </footer>
+  </main>
+  <!-- JS Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <!-- Popper - Talvez nao seja necessario utilizar -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+  <!-- Meu Js -->
+  <script src="/js/index.js"></script>
+
+</body>
+
+</html>
+
+
